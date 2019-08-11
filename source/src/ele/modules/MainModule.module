@@ -1,0 +1,23 @@
+{
+  "props": [],
+  "components": {
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 784,
+      "y": 288,
+      "props": {
+        "path": "config.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    },
+    "downloader": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 336,
+      "y": 160,
+      "props": {
+        "threadCount": "4"
+      }
+    }
+  }
+}

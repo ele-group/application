@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Menu">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <method name="doLogoMouseEn">
+      <behaviourEnable behaviour="behaviour\custom\ColorAdjustEffectBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doLogoMouseE">
+      <behaviourDisable behaviour="behaviour\custom\ColorAdjustEffectBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  <method name="doScrollDown">
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('News')" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="News" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('News')" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImg_updateMouseDownL">
+      <browse url="https://pixlpro.github.io/375tonext.html" url-type="string"/>
+    </method>
+  <method name="doImg_app_dMouseDownL">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Smartbook')" object-type="object"/>
+      <loadForm form="Smartbook" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Smartbook')" object-type="object"/>
+    </method>
+  <method name="doImg_app_savetheprincessMouseDownL">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('SavethePrincess')" object-type="object"/>
+      <loadForm form="SavethePrincess" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('SavethePrincess')" object-type="object"/>
+    </method>
+  <method name="doImg_app_smartbookdsMouseDownL">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Monument')" object-type="object"/>
+      <loadForm form="Monument" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Monument')" object-type="object"/>
+    </method>
+  <method name="doKeyDownD">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Debug')" object-type="object"/>
+      <loadForm form="Debug" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Debug')" object-type="object"/>
+    </method>
+  <method name="doKeyDownJ">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Debug')" object-type="object"/>
+      <loadForm form="Debug" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Debug')" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doKeyDownEsc">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <elementDestroy object="systemTray" object-type="object"/>
+      <applicationShutdown/>
+    </method>
+  <method name="doImg_closeMouseDownL">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <elementDestroy object="systemTray" object-type="object"/>
+      <applicationShutdown/>
+    </method>
+  <method name="doImage9dMouseEn">
+      <behaviourEnable behaviour="behaviour\custom\ColorAdjustEffectBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doImage9dMouseE">
+      <behaviourDisable behaviour="behaviour\custom\ColorAdjustEffectBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+    </method>
+    
+    
+  <method name="doImg_logoMouseEn">
+      <behaviourEnable behaviour="behaviour\custom\ColorAdjustEffectBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doImg_logoMouseE">
+      <behaviourDisable behaviour="behaviour\custom\ColorAdjustEffectBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
+    </method>
+    
+    
+  
+  
+    
+    
+  
+  
+  
+    
+  <method name="doImg_close_menuMouseDownL">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <elementDestroy object="systemTray" object-type="object"/>
+      <applicationShutdown/>
+    </method>
+    
+  <method name="doImg_updateMouseDownLeft">
+      <browse url="https://pixlpro.github.io/update.html" url-type="string"/>
+    </method>
+  
+    
+  
+    
+  <method name="doPanelMouseEnter">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object" value="0.75" value-type="float"/>
+    </method>
+  <method name="doPanelMouseExit">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doPanelAltMouseEnter">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object" value="0.75" value-type="float"/>
+    </method>
+    <method name="doPanelAltMouseExit">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+  
+  <method name="doCircle6MouseDownLeft">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  <method name="doPanelMouseDownLeft">
+      <gameLoadScene dest="ScrollBar" dest-type="form" source="originForm('reflection')-&gt;game" source-type="object"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,16 @@
+{
+  "props": [],
+  "components": {
+    "ini": {
+      "type": "script\\storage\\IniStorage",
+      "x": 176.0,
+      "y": 176.0,
+      "props": {
+        "path": "apps.ini",
+        "autoSave": "1",
+        "trimValues": true,
+        "multiLineValues": "1"
+      }
+    }
+  }
+}

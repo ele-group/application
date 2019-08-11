@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="4" file=".game/sprites/Smartbook.png" fixtureData="Array" fixtureType="" frameHeight="336" frameWidth="597" metaAutoSize="1" metaCentred="" speed="12">
+  <animation indexes="5" name="2"/>
+  <animation indexes="6" name="3"/>
+  <animation indexes="7" name="4"/>
+  <animation indexes="4" name="1"/>
+</sprite>

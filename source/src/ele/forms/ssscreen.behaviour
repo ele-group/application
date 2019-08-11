@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="">
+    <behaviour autoplay="1" cacheScenes="" gravityDirection="DOWN" gravityType="ZERO" initialScene="scrollsmartbook" type="behaviour\custom\GameSceneBehaviour"/>
+  </target>
+</behaviours>

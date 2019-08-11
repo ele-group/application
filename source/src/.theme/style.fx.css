@@ -1,0 +1,5 @@
+/* JavaFX CSS Style with -fx- prefix */
+
+.deceleration {
+   -fx-transition: 1s;
+}

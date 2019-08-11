@@ -1,0 +1,19 @@
+{
+  "props": {
+    "disabled": false
+  },
+  "components": {
+    "systemTray": {
+      "type": "script\\SystemTrayScript",
+      "x": 496,
+      "y": 256,
+      "props": {
+        "visible": "1",
+        "tooltip": "Запущено",
+        "icon": ".data/img/без_названия__2_.Th99r.png",
+        "manualExit": false,
+        "alwaysShowing": false
+      }
+    }
+  }
+}

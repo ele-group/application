@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="TortCraft">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImage3MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="1" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="248" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage4MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="4" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="400" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage5MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="2" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="552" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage6MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="3" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="704" x-type="float" y="520" y-type="float"/>
+    </method>
+  
+  </class>
+<class name="SavethePrincess">
+    <method name="doImage3MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="1" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="248" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage4MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="4" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="400" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage5MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="2" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="552" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage6MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="3" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="704" x-type="float" y="520" y-type="float"/>
+    </method>
+  
+  
+  
+  <method name="doKeyDownEsc">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
+    </method>
+  <method name="doImageMouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
+    </method>
+  <method name="doLabelMouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
+    </method>
+  <method name="doImage10MouseDownLeft">
+      <open file="C:\Ele App\savetheprincess\Save the Princess.exe" file-type="string"/>
+    </method>
+  </class>
+<class name="Smartbook">
+    <method name="doImage3MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="1" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="248" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage4MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="2" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="400" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage5MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="3" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="552" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImage6MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <GameChangeAnimation animation="4" animation-type="string" object="object" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="object" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="500" duration-type="integer" object="image7" object-type="object" x="704" x-type="float" y="520" y-type="float"/>
+    </method>
+  <method name="doImageMouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
+    </method>
+  <method name="doKeyDownEsc">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doLabel8MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Shop')" object-type="object"/>
+      <loadForm form="Shop" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Shop')" object-type="object"/>
+    <setVar name="exit" name-type="" value="1" value-type="string"/>
+    </method>
+  
+  
+  <method name="doImage11MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
+    </method>
+  <method name="doImage12MouseDownLeft">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Shop')" object-type="object"/>
+      <loadForm form="Shop" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Shop')" object-type="object"/>
+      <setVar name="exit" name-type="" value="1" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  <method name="doShow">
+      <ifExpr expr="$this-&gt;ini-&gt;get('smartbook', 'downloaded') != 'true'" expr-type="expr" not="" not-type=""/>
+      <elementDestroy object="image10" object-type="object"/>
+    </method>
+  <method name="doImage10MouseDownLeft">
+      <open file="./Smartbook.exe" file-type="string"/>
+    </method>
+  </class>
+</root>

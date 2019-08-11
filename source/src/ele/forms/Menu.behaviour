@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="game">
+    <behaviour autoplay="1" cacheScenes="" gravityDirection="DOWN" gravityType="ZERO" initialScene="ScrollBar" type="behaviour\custom\GameSceneBehaviour"/>
+  </target>
+  <target id="">
+    <behaviour animated="1" enabled="" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="img_scroll">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour delay="0" duration="750" offsetX="0" offsetY="25" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="img_update">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="0" duration="750" repeatCount="-1" scale="1.2" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="img_logo">
+    <behaviour color="#ffffff" enabled="" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour brightness="0" contrast="0" hue="1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panel">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="panelAlt">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="circle6">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
+    <behaviour color="#b3b3b3" enabled="" offsetX="0" offsetY="0" radius="14" spread="0.2" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="rect">
+    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+</behaviours>
