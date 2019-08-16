@@ -69,11 +69,6 @@
   
   
   
-  <method name="doKeyDownEsc">
-      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="~senderForm" object-type="object"/>
-      <loadForm form="Menu" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
-      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Menu')" object-type="object"/>
-    </method>
   
   
   
@@ -83,17 +78,16 @@
   
   
   
-  <method name="doShow">
-      <ifExpr expr="$this-&gt;ini-&gt;get('savetheprincess', 'downloaded') != 'true'" expr-type="expr" not="" not-type=""/>
-      <elementDestroy object="image10" object-type="object"/>
-    </method>
+  
+  
   
     
   
   
   
-  <method name="doButtonMouseDownLeft">
+  <method name="doButton_actionMouseDownL">
       <toast value="Упс! Произошла ошибка: приложение не опубликовано." value-type="string"/>
     </method>
+  
   </class>
 </root>

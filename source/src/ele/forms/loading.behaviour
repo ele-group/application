@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="progress_indicator">
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="1000" duration="250" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

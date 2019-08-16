@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="panel_update">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="button_error">
+    <behaviour delay="0" duration="150" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="img_internet_problems">
+    <behaviour enabled="" radius="8.2625" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

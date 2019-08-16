@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<sprite defaultAnimation="1" file=".game/sprites/SavethePrincess.png" fixtureData="Array" fixtureType="" frameHeight="336" frameWidth="600" metaAutoSize="1" metaCentred="" speed="12">
-  <animation indexes="0" name="1"/>
-  <animation indexes="1" name="2"/>
-  <animation indexes="2" name="3"/>
-  <animation indexes="3" name="4"/>
-</sprite>

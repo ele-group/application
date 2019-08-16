@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Вова" authorOS="Windows 8.1" createdAt="1530563574658" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Ele" packageName="ele" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1565538917514">
+<project author="Вова" authorOS="Windows 8.1" createdAt="1530563574658" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Ele" packageName="ele" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1565988337476">
   <tree>
     <expanded>
     <path src=""/>
@@ -14,21 +14,6 @@
   <file selected="1" src="Ele.dnproject"/>
     <file src="src/ele/modules/MainModule.php"/>
     <file src="src/ele/modules/Icon.php"/>
-    <file src="src/ele/forms/MainForm.php"/>
-    <file src="src/ele/forms/screen.php"/>
-    <file src="src/ele/forms/Smartbook.php"/>
-    <file src="src/ele/forms/scrollsmartbook.php"/>
-    <file src="src/ele/forms/scrollsavetheprincess.php"/>
-    <file src="src/ele/forms/ScrollBar.php"/>
-    <file src="src/ele/forms/News.php"/>
-    <file src="src/.game/sprites/SavethePrincess.sprite"/>
-    <file src="src/.game/sprites/Monument.sprite"/>
-    <file src="src/.game/sprites/Debug.sprite"/>
-    <file src="src/ele/forms/reflection.php"/>
-    <file src="src/ele/forms/SavethePrincess.php"/>
-    <file src="src/ele/forms/ssscreen.php"/>
-    <file src="src/ele/forms/Monument.php"/>
-    <file src="src/ele/forms/scrollmonument.php"/>
   </openedFiles>
   <files/>
   <behaviours>

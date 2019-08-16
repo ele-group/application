@@ -5,12 +5,12 @@
   "components": {
     "systemTray": {
       "type": "script\\SystemTrayScript",
-      "x": 496,
-      "y": 256,
+      "x": 0,
+      "y": 0,
       "props": {
         "visible": "1",
         "tooltip": "Запущено",
-        "icon": ".data/img/без_названия__2_.Th99r.png",
+        "icon": ".data/img/tray.png",
         "manualExit": false,
         "alwaysShowing": false
       }

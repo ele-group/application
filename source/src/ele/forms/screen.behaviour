@@ -1,45 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <behaviours>
-  <target id="game">
-    <behaviour autoplay="1" cacheScenes="" gravityDirection="UP" gravityType="ZERO" initialScene="MainForm" type="behaviour\custom\GameSceneBehaviour"/>
+  <target id="content">
+    <behaviour autoplay="1" cacheScenes="" gravityDirection="UP" gravityType="ZERO" initialScene="loading" type="behaviour\custom\GameSceneBehaviour"/>
     <behaviour direction="ALL" type="behaviour\custom\CameraSnapBehaviour"/>
   </target>
   <target id="">
     <behaviour animated="1" enabled="" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
   </target>
-  <target id="img_logo">
-    <behaviour color="#ffffff" enabled="" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-    <behaviour brightness="0" contrast="0" enabled="" hue="1" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
-    <behaviour animated="1" enabled="" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
-  </target>
-  <target id="panel">
+  <target id="panel_logo">
     <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
     <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="1" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
     <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.75" type="behaviour\custom\ScaleAnimationBehaviour" when="CLICK"/>
     <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
-    <behaviour animated="1" enabled="" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
   </target>
-  <target id="rect">
-    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
-  </target>
-  <target id="circle">
-    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
-    <behaviour color="#b3b3b3" enabled="" offsetX="0" offsetY="0" radius="14" spread="0.2" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-  </target>
-  <target id="circle3">
-    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
-    <behaviour color="#b3b3b3" enabled="" offsetX="0" offsetY="0" radius="14" spread="0.2" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
-  </target>
-  <target id="circle6">
-    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
-    <behaviour color="#b3b3b3" enabled="" offsetX="0" offsetY="0" radius="14" spread="0.2" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
-  </target>
-  <target id="panel4">
+  <target id="panel_control">
     <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
     <behaviour animated="1" direction="ALL" enabled="" gridX="1" gridY="1" limitedByParent="1" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
     <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
     <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.75" type="behaviour\custom\ScaleAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="circle_close">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="circle_moving">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
+    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="circle_menu">
+    <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
+    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="rect_contour">
+    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
   </target>
 </behaviours>

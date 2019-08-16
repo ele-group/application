@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="panel_screenshots">
+    <behaviour animated="1" direction="LEFT_RIGHT" gridX="1" gridY="0" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="RECTANGLE" solid="" solidType="THING" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour type="behaviour\custom\WrapScreenBehaviour" wrapBottom="" wrapLeft="1" wrapRight="1" wrapTop=""/>
+  </target>
+  <target id="panel_screenshot1">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="STATIC" fixtureType="RECTANGLE" solid="" solidType="NONE" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="panel_screenshot2">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="STATIC" fixtureType="RECTANGLE" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="panel_screenshot3">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="STATIC" fixtureType="RECTANGLE" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="panel_screenshot4">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour bodyType="STATIC" fixtureType="RECTANGLE" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+</behaviours>

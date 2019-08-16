@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="panel_apps">
+    <behaviour bodyType="DYNAMIC" fixtureType="RECTANGLE" solid="" solidType="THING" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour animated="1" direction="LEFT_RIGHT" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+  <target id="panel_news">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panel_smartbook">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panel_princess">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panel_monuments">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panel_swipe">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="button_news">
+    <behaviour delay="0" duration="150" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="image_smartbook">
+    <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="image_princess">
+    <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="image_monuments">
+    <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="stop_left">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="stop_right">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+</behaviours>

@@ -197,10 +197,10 @@
   
   </class>
 <class name="screen">
-    <method name="doPanelMouseEnter">
+    <method name="doLogo_panelMouseEn">
       <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object" value="0.75" value-type="float"/>
     </method>
-  <method name="doPanelMouseExit">
+  <method name="doLogo_panelMouseE">
       <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
     </method>
   
@@ -263,20 +263,30 @@
   
   
   
-  <method name="doCircleMouseDownLeft">
+  <method name="doCircle_closeMouseDownL">
       <applicationShutdown/>
     </method>
     
     
-    <method name="doCircle6MouseDownLeft">
+    <method name="doCircle_menuMouseDownL">
       <gameLoadScene dest="ScrollBar" dest-type="form" source="game" source-type="object"/>
     </method>
-  <method name="doPanelMouseDownLeft">
+  <method name="doLogo_panelMouseDownL">
       <behaviourDisable behaviour="behaviour\custom\DraggingBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
     </method>
-  <method name="doPanelMouseUpLeft">
+  <method name="doLogo_panelMouseUpL">
       <behaviourEnable behaviour="behaviour\custom\DraggingBehaviour" behaviour-type="string" object="~sender" object-type="object"/>
     </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   </class>

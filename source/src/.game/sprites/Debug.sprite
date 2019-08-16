@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<sprite defaultAnimation="no" file=".game/sprites/Debug.png" fixtureData="Array" fixtureType="" frameHeight="32" frameWidth="32" metaAutoSize="1" metaCentred="1" speed="12">
-  <animation indexes="0" name="no"/>
-  <animation indexes="1" name="yes"/>
-</sprite>

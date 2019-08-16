@@ -10,216 +10,32 @@ use php\gui\UXNode;
 
 class screen extends AbstractForm
 {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /**
-     * @event panel.mouseEnter 
+     * @event circle_menu.mouseDown-Left 
      */
-    function doPanelMouseEnter(UXMouseEvent $e = null)
+    function doCircle_menuMouseDownLeft(UXMouseEvent $e = null)
     {    
-        
+        $e = $event ?: $e;
+        $GLOBALS['current_version'] = file_get_contents("https://ele.ucoz.net/current_version.txt");
+        if ($GLOBALS['current_version'] == $GLOBALS['this_version'] and $GLOBALS['internet_connection'] == 'true') {
+            $this->content->phys->loadScene('scroll_bar');
+        }
+        if ($GLOBALS['current_version'] != $GLOBALS['this_version'] and $GLOBALS['internet_connection'] == 'true') {
+            $GLOBALS['header_error'] = file_get_contents("https://ele.ucoz.net/header_error.txt");
+            $GLOBALS['content_error'] = file_get_contents("https://ele.ucoz.net/content_error.txt");
+            $this->content->phys->loadScene('error');
+            Element::setText($this->form('error')->lbl_name_error, $GLOBALS['header_error']);
+            Element::setText($this->form('error')->lbl_content_error, $GLOBALS['content_error']);
+            Element::loadContentAsync($this->form('error')->img_error, 'https://ele.ucoz.net/image_error.png', function () use ($e, $event) {});
+        }
     }
-
+    
     /**
-     * @event panel.mouseExit 
+     * @event circle_close.mouseDown-Left 
      */
-    function doPanelMouseExit(UXMouseEvent $e = null)
+    function doCircle_closeMouseDownLeft(UXMouseEvent $e = null)
     {    
-        
+        $e = $event ?: $e;
+        app()->shutdown();
     }
-
-
-
-
-
-
-
-
-
-
-    /**
-     * @event panel4.mouseEnter 
-     */
-    function doPanel4MouseEnter(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
-     * @event panel4.mouseExit 
-     */
-    function doPanel4MouseExit(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
-     * @event circle.mouseDown-Left 
-     */
-    function doCircleMouseDownLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-
-
-    /**
-     * @event circle6.mouseDown-Left 
-     */
-    function doCircle6MouseDownLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
-     * @event panel.mouseDown-Left 
-     */
-    function doPanelMouseDownLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-    /**
-     * @event panel.mouseUp-Left 
-     */
-    function doPanelMouseUpLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
