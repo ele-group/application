@@ -58,12 +58,12 @@ class scroll_bar extends AbstractForm
     function doImage_princessClickLeft(UXMouseEvent $e = null)
     {
         $e = $event ?: $e;
-        $this->originForm('screen')->content->phys->loadScene('savetheprincess');
+        $this->originForm('screen')->content->phys->loadScene('save_the_princess');
         if ($GLOBALS['current_princess'] != $GLOBALS['this_princess'] and $GLOBALS['princess'] == "true") {
-            Element::setText($this->form('savetheprincess')->button_action, 'Обновить');
+            Element::setText($this->form('save_the_princess')->button_action, 'Обновить');
         }
         if ($GLOBALS['princess'] == "true" and $GLOBALS['current_princess'] == $GLOBALS['this_princess']) {
-            Element::setText($this->form('savetheprincess')->button_action, 'Запустить');
+            Element::setText($this->form('save_the_princess')->button_action, 'Запустить');
         }
     }
 
@@ -81,4 +81,13 @@ class scroll_bar extends AbstractForm
             Element::setText($this->form('monuments')->button_action, 'Запустить');
         }
     }
+
+    /**
+     * @event panel_apps.mouseDrag 
+     */
+    function doPanel_appsMouseDrag(UXMouseEvent $e = null)
+    {    
+        
+    }
+
 }

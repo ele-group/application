@@ -7,7 +7,7 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label_little_bit" visible="1"/>
-    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="stop_left" layoutX="-1296" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="31" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="stop_left" layoutX="-1112" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="31" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
       <children/>
       <titleFont>
         <Font name="System Regular" size="12"/>
@@ -23,19 +23,19 @@
     <Data cursor="DEFAULT" enabled="1" id="data-stop_right" visible="1"/>
     <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_news" layoutX="8" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="840" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <LabelEx alignment="BOTTOM_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_top" layoutX="64" layoutY="48" prefHeight="48" prefWidth="504" styleClass="label " text="Новая версия 0.2" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+        <LabelEx alignment="BOTTOM_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_top" layoutX="64" layoutY="48" prefHeight="48" prefWidth="504" styleClass="label " text="Новая версия 5.25" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="Trebuchet MS" size="36"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-lbl_top" visible="1"/>
-        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_news" layoutX="64" layoutY="128" prefHeight="424" prefWidth="712" styleClass="label " text="Исправление багов, косметических несоответствий, удаление заглушек и новые плюшки" textAlignment="JUSTIFY" textFill="#000000" underline="false" wrapText="true">
+        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_news" layoutX="64" layoutY="128" prefHeight="424" prefWidth="712" styleClass="label " text="Исправление багов, косметических несоответствий и ошибок в тексте" textAlignment="JUSTIFY" textFill="#000000" underline="false" wrapText="true">
           <font>
             <Font name="Trebuchet MS" size="20"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-lbl_news" visible="1"/>
-        <FlatButton alignment="CENTER" borderRadius="24" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button_news" layoutX="616" layoutY="512" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Подробнее" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <FlatButton alignment="CENTER" borderRadius="24" color="#cccccc" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#b3b3b3" id="button_news" layoutX="616" layoutY="512" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Скоро" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Trebuchet MS" size="20"/>
           </font>
@@ -53,7 +53,7 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel_news" visible="1"/>
-    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_apps" layoutX="872" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="1672" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#00000000" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_apps" layoutX="872" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="1672" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
         <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_smartbook" layoutX="424" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="400" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
           <children>

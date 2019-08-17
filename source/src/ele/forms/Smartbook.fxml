@@ -15,17 +15,29 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label_content" visible="1"/>
-        <FlatButton alignment="CENTER" borderRadius="24" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button_action" layoutX="1048" layoutY="928" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Скачать" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <FlatButton alignment="CENTER" borderRadius="24" color="#cccccc" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#b3b3b3" id="button_action" layoutX="1048" layoutY="928" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Скоро" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="Trebuchet MS" size="20"/>
           </font>
         </FlatButton>
         <Data cursor="HAND" enabled="1" id="data-button_action" visible="1"/>
-        <GamePane backgroundColor="#f2f2f2" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="scroll_bar" layoutX="332" layoutY="392" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="480" prefWidth="600" styleClass="without-focus " titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+        <GamePane backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="scroll_bar" layoutX="332" layoutY="392" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="480" prefWidth="600" styleClass="without-focus " titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
           <titleFont>
             <Font name="System Regular" size="12"/>
           </titleFont>
           <children>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+              <children/>
+            </AnchorPane>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+              <children/>
+            </AnchorPane>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+              <children/>
+            </AnchorPane>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+              <children/>
+            </AnchorPane>
             <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
               <children/>
             </AnchorPane>

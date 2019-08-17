@@ -177,5 +177,9 @@
   
   
   
+  
+  <method name="doPanel_appsMouseDrag">
+      <setVar name="dragging" name-type="" value="true" value-type="string"/>
+    </method>
   </class>
 </root>
