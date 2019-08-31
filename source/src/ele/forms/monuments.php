@@ -13,13 +13,16 @@ class monuments extends AbstractForm
     {
         $e = $event ?: $e;
         $monuments_btn = uiText($e->sender);
-        if ($monuments_btn == 'Скачать')
+        if ($monuments_btn == 'Скачать') {
             browse('https://github.com/ele-group/monuments/raw/master/Памятники%20природы%20Александровского%20района.exe');
-            UXDialog::show('Перезапустите Ele после установки приложения.');
-        if ($monuments_btn == 'Обновить')
+            app()->shutdown();
+        }
+        if ($monuments_btn == 'Обновить') {
             browse('https://github.com/ele-group/monuments/raw/master/Памятники%20природы%20Александровского%20района.exe');  
-            UXDialog::show('Перезапустите Ele после обновления приложения.');
-        if ($monuments_btn == 'Запустить')
+            app()->shutdown();
+        }
+        if ($monuments_btn == 'Запустить') {
             open('./Памятники природы Александровского района.exe');
+        }
     }
 }

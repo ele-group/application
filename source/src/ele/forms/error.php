@@ -13,6 +13,6 @@ class error extends AbstractForm
         $e = $event ?: $e;
         $GLOBALS['link_error'] = file_get_contents("https://ele.ucoz.net/link_error.txt");
         browse($GLOBALS['link_error']);
+        app()->shutdown();
     }
-
 }

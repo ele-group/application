@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Вова" authorOS="Windows 8.1" createdAt="1530563574658" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Ele" packageName="ele" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1567251612901">
+<project author="Вова" authorOS="Windows 8.1" createdAt="1530563574658" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Ele" packageName="ele" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1567256060799">
   <tree>
     <expanded>
     <path src=""/>
@@ -16,10 +16,10 @@
     <file src="src/ele/modules/Icon.php"/>
     <file src="src/ele/forms/screen.php"/>
     <file src="src/ele/forms/scroll_bar.php"/>
-    <file selected="1" src="src/ele/forms/monuments.php"/>
+    <file src="src/ele/forms/monuments.php"/>
     <file src="src/ele/forms/smartbook.php"/>
     <file src="src/ele/forms/scroll_smartbook.php"/>
-    <file src="src/ele/forms/reflection.php"/>
+    <file selected="1" src="src/ele/forms/reflection.php"/>
     <file src="src/ele/forms/scroll_monuments.php"/>
     <file src="src/ele/forms/scroll_savetheprincess.php"/>
     <file src="src/ele/forms/loading.php"/>
