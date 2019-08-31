@@ -28,7 +28,6 @@
   </target>
   <target id="circle_menu">
     <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
-    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
   </target>
   <target id="rect_contour">
     <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>

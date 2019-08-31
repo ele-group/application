@@ -30,6 +30,7 @@
   </target>
   <target id="image_monuments">
     <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour animated="1" delay="0" duration="1500" repeatCount="-1" scale="1.3" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
   </target>
   <target id="stop_left">
     <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>

@@ -34,7 +34,7 @@ class scroll_bar extends AbstractForm
     function doButton_newsMouseDownLeft(UXMouseEvent $e = null)
     {
         $e = $event ?: $e;
-        UXDialog::show('Упс! Произошла ошибка: новостей нет.', 'ERROR');
+        browse('https://ele-group.github.io/monuments/');
     }
 
     /**
