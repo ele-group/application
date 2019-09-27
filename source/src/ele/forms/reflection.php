@@ -14,7 +14,7 @@ class reflection extends AbstractForm
     function doShow(UXWindowEvent $e = null)
     {
         $e = $event ?: $e;
-        $GLOBALS['this_version'] = '5.44';
+        $GLOBALS['this_version'] = '5.65';
         $GLOBALS['this_smartbook'] = $this->ini->get('this_smartbook','downloaded');
         $GLOBALS['this_princess'] = $this->ini->get('this_princess','downloaded');
         $GLOBALS['this_monuments'] = $this->ini->get('this_monuments','downloaded');
@@ -28,7 +28,7 @@ class reflection extends AbstractForm
         $GLOBALS['smartbook'] = $this->ini->get('smartbook','downloaded');
         $GLOBALS['princess'] = $this->ini->get('savetheprincess','downloaded');
         $GLOBALS['monuments'] = $this->ini->get('monuments','downloaded');
-        $this->toast('Стабильная версия, сборка 5.44');
+        $this->toast('Стабильная версия, сборка 5.65');
         waitAsync(5000, function () use ($e, $event) {
             $this->toast('Для скролла используйте мышку.');
         });

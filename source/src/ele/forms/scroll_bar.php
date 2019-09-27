@@ -34,7 +34,7 @@ class scroll_bar extends AbstractForm
     function doButton_newsMouseDownLeft(UXMouseEvent $e = null)
     {
         $e = $event ?: $e;
-        browse('https://ele-group.github.io/monuments/');
+        browse('https://vk.com/elevk/');
     }
 
     /**
