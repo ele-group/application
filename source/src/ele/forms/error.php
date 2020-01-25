@@ -11,8 +11,9 @@ class error extends AbstractForm
     function doButton_errorMouseDownLeft(UXMouseEvent $e = null)
     {
         $e = $event ?: $e;
-        $GLOBALS['link_error'] = file_get_contents("https://ele.ucoz.net/link_error.txt");
-        browse($GLOBALS['link_error']);
+        $link_error = "https://vk.com/ele_team";
+        browse($link_error);
         app()->shutdown();
     }
+
 }

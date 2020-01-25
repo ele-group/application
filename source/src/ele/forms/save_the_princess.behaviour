@@ -8,6 +8,7 @@
     <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
     <behaviour animated="1" direction="UP_DOWN" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
     <behaviour bodyType="DYNAMIC" fixtureType="RECTANGLE" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour type="behaviour\custom\WrapScreenBehaviour" wrapBottom="1" wrapLeft="1" wrapRight="1" wrapTop="1"/>
   </target>
   <target id="stop_top">
     <behaviour bodyType="STATIC" fixtureType="ELLIPSE" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>

@@ -4,9 +4,6 @@
     <behaviour bodyType="DYNAMIC" fixtureType="RECTANGLE" solid="" solidType="THING" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
     <behaviour animated="1" direction="LEFT_RIGHT" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
   </target>
-  <target id="panel_news">
-    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-  </target>
   <target id="panel_smartbook">
     <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
   </target>
@@ -18,9 +15,6 @@
   </target>
   <target id="panel_swipe">
     <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
-  </target>
-  <target id="button_news">
-    <behaviour delay="0" duration="150" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
   </target>
   <target id="image_smartbook">
     <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
@@ -37,5 +31,17 @@
   </target>
   <target id="stop_right">
     <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="button_news">
+    <behaviour delay="0" duration="150" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="panel_news_top">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="panel_news_bottom">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="stop_news_bottom">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
   </target>
 </behaviours>

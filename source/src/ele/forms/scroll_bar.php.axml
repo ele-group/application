@@ -181,5 +181,8 @@
   <method name="doPanel_appsMouseDrag">
       <setVar name="dragging" name-type="" value="true" value-type="string"/>
     </method>
+  <method name="doPanel_appsStep">
+      <setVar name="dragging" name-type="" value="false" value-type="string"/>
+    </method>
   </class>
 </root>

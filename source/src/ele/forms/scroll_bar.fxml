@@ -21,44 +21,71 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-stop_right" visible="1"/>
-    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_news" layoutX="8" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="840" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
-      <children>
-        <LabelEx alignment="BOTTOM_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_top" layoutX="64" layoutY="48" prefHeight="48" prefWidth="504" styleClass="label " text="Новая версия 5.65" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
-          <font>
-            <Font name="Trebuchet MS" size="36"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-lbl_top" visible="1"/>
-        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_news" layoutX="64" layoutY="128" prefHeight="424" prefWidth="712" styleClass="label " text="Добавили новую игру и учебник будущего" textAlignment="JUSTIFY" textFill="#000000" underline="false" wrapText="true">
-          <font>
-            <Font name="Trebuchet MS" size="20"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-lbl_news" visible="1"/>
-        <FlatButton alignment="CENTER" borderRadius="24" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button_news" layoutX="616" layoutY="512" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Подробнее" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
-          <font>
-            <Font name="Trebuchet MS" size="20"/>
-          </font>
-        </FlatButton>
-        <Data cursor="HAND" enabled="1" id="data-button_news" visible="1"/>
-        <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="300" id="img_news" layoutX="270" layoutY="192" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="300">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-img_news" image=".data/img/news.png" visible="1"/>
-        <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="300" id="image_wide" layoutX="0" layoutY="192" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="840">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </ImageViewEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-image_wide" image=".data/img/wide.jpg" visible="1"/>
-      </children>
-      <titleFont>
-        <Font name="System Regular" size="12"/>
-      </titleFont>
-    </Panel>
-    <Data cursor="DEFAULT" enabled="1" id="data-panel_news" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel_apps" visible="1"/>
+    <ScrollPane focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="container" layoutX="0" layoutY="0" prefHeight="616" prefWidth="864" styleClass="scroll-pane " vbarPolicy="ALWAYS" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="1272" prefWidth="848" styleClass="">
+          <children>
+            <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_news_top" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="600" prefWidth="840" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+              <children>
+                <LabelEx alignment="BOTTOM_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_top" layoutX="64" layoutY="48" prefHeight="48" prefWidth="504" styleClass="label " text="Новая версия 5.7" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Trebuchet MS" size="36"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-lbl_top" visible="1"/>
+                <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_news" layoutX="64" layoutY="128" prefHeight="424" prefWidth="712" styleClass="label " text="Добавили вкладку с новостями, переехали на новый хостинг, исправление ошибок" textAlignment="JUSTIFY" textFill="#000000" underline="false" wrapText="true">
+                  <font>
+                    <Font name="Trebuchet MS" size="20"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-lbl_news" visible="1"/>
+                <FlatButton alignment="CENTER" borderRadius="24" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button_news" layoutX="616" layoutY="512" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Подробнее" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Trebuchet MS" size="20"/>
+                  </font>
+                </FlatButton>
+                <Data cursor="HAND" enabled="1" id="data-button_news" visible="1"/>
+                <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="300" id="img_news" layoutX="270" layoutY="192" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="300">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </ImageViewEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-img_news" image=".data/img/news.png" visible="1"/>
+                <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="300" id="image_wide" layoutX="0" layoutY="192" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="840">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </ImageViewEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-image_wide" image=".data/img/wide.jpg" visible="1"/>
+              </children>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel_news_top" visible="1"/>
+            <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_news_bottom" layoutX="8" layoutY="640" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="600" prefWidth="840" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+              <children>
+                <WebView focusTraversable="true" id="browser_news" layoutX="8" layoutY="8" prefHeight="584" prefWidth="824"/>
+                <Data contextMenuEnabled="" cursor="DEFAULT" enabled="1" id="data-browser_news" url="https://ele.neocities.org/server/news.html" visible="1"/>
+              </children>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel_news_bottom" visible="1"/>
+            <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="stop_news_bottom" layoutX="8" layoutY="1240" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0" prefHeight="32" prefWidth="840" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <titleFont>
+                <Font name="System Regular" size="12"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-stop_news_bottom" visible="1"/>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
     <Panel backgroundColor="#00000000" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_apps" layoutX="872" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="1672" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
         <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_smartbook" layoutX="424" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="616" prefWidth="400" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
@@ -128,6 +155,5 @@
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
-    <Data cursor="DEFAULT" enabled="1" id="data-panel_apps" visible="1"/>
   </children>
 </AnchorPane>
